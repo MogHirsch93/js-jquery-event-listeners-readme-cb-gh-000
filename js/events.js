@@ -7,12 +7,12 @@ $('p').on("click", function(){
 
 function frameIt(){
   $('img').on('load', function(){
-  $('img').addClass("tasty")  
+  $('img').addClass("tasty")
   });
 };
 
 function pressIt(){
-  $(document).on('keydown', function(key) {
+  $(input).on('keydown', function(key) {
     if(key.which == 83){
       alert('s was pushed');
     }
